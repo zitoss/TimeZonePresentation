@@ -55,3 +55,9 @@ target/
 
 # Temporary Files
 *~
+
+# PyCharm Files
+.idea/*
+
+# Development stuff
+webportal/webportal/local_settings.py

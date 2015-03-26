@@ -1,0 +1,8 @@
+# General packages
+django==1.7.7
+psycopg2==2.6
+
+# Code Analysis
+pylint==1.4.3
+pylint-django==0.6
+flake8==2.4.0
