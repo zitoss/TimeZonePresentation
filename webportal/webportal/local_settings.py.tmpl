@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+u""" Template files for local development settings """
+
+
+DEBUG = True
+DEBUG_TEMPLATE = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'tzp_db',
+        'USER': 'username',
+        'PASSWORD': 'userpassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
