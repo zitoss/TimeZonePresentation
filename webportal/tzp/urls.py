@@ -9,5 +9,6 @@ from tzp import views
 
 urlpatterns = patterns(
     '',
-    url(r'^$', views.single_view, name='tzp-single-view')
+    url(r'^$', views.single_view, name='tzp-single-view'),
+    url(r'^manage/$', views.manage, name='tzp-manage')
 )
